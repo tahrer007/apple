@@ -38,10 +38,13 @@
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .body_links::after {
-    content:"";
+    content:"﹥";
     position: absolute;
     padding-left: 0.3em;
     top:0;
+}
+.body_links:hover {
+  text-decoration: underline;
 }
 
 .page1_3imges {
@@ -51,18 +54,24 @@
   align-items:center ; 
  
 }
+/*TODO:animation homepage*/
 .unit_image {
   width: 289px;
   height: 281px;
   background-size: 289px 281px;
   margin-top: 26px;
+  animation: rotate 4s .125s ease-in-out forwards;
  
+}
+@keyframes rotate {
+  
 }
 .left{
   background-image: url(/image/airpods__b0941p5gmwj6_medium_2x.png);
 }  
 .center{
   background-image: url(/image/watch__csqqcayzqueu_large.png);
+  transform: rotateZ(-4deg) translate3d(0, 0, 0);
 }
 
 .right{
