@@ -21,21 +21,7 @@
   background-repeat: no-repeat;
   background-image: url(https://www.apple.com/v/home/ah/images/logos/holiday-2021/logo__dcojfwkzna2q_large.png);
 }
-.body_h2 {
-  font-size: 56px;
-  line-height: 1.07143;
-  font-weight: 600;
-  letter-spacing: -0.005em;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #1d1d1f;
-  text-align: center;
-  display: block;
- position: relative;
-   flex-shrink: 1;
- /*font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;*/
-}
+
 .main_links_div{
     margin-top: 9px;
 }
@@ -46,9 +32,9 @@
   letter-spacing: 0.011em;
   position: relative;
   color: #06c;
-
-  
   text-decoration: none;
+  margin-top: 0.65em;
+  margin-left:35px;
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .body_links::after {

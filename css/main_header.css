@@ -1,47 +1,55 @@
 .main_header {
- height:48px;
- max-height: 44px;
+  height: 48px;
   width: 100%;
-  min-width: 1024px;;
+  /*position: fixed;*/
+  max-height: 44px;
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;
-  justify-content:center ; 
-  align-items:center ; 
-  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
   color: #f5f5f7;
-  position: fixed;
-  z-index: 1;
-  top:0;
-  left:0 ;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
 
- 
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
 }
-.main_nav_list{
+.main_nav_list {
   list-style-type: none;
-
+  
 }
-.main_nav_list_item{
+/* TODO:NAV LOGOS*/
+.main_nav_list_item {
   display: inline;
-  padding : 0px 8px ; 
+  padding: 0px 8px;
   margin: 0px 8px;
+  opacity: 0.8;
+  
 }
-.logo{
+.main_nav_list_item:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.logo {
   background-size: 14px 44px;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: center center;
   width: 14px;
-  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-globalelements/dist/us/ac-globalnav-dist/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg)
+  
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-globalelements/dist/us/ac-globalnav-dist/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg);
 }
-.search{
+.search {
   background-size: 15px 88px;
   background-repeat: no-repeat;
   width: 15px;
   background-image: url(https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__cbllq1gkias2_large.svg);
 }
-.bag{
-      background-size: 13px 44px;
-      background-repeat: no-repeat;
-      background-image: url(https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__yzte50i47ciu_large.svg);
-      background-position: center center;
-      width: 13px;
-  }
+.bag {
+  background-size: 13px 44px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__yzte50i47ciu_large.svg);
+  background-position: center center;
+  width: 13px;
+}

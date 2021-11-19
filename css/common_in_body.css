@@ -1,0 +1,16 @@
+.body_h2 {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+   position: relative;
+     flex-shrink: 1;
+   /*font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;*/
+  }
+  
