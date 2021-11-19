@@ -1,8 +1,10 @@
 *{
-    margin:0 ; 
-    padding :0 
+    margin:0px ; 
+    padding :0px ;
+    
   
 }
+
 .container{
     width: 100%;
     margin:0px;
@@ -10,6 +12,9 @@
    display: flex; 
    flex-direction: column;
    box-sizing: border-box;
+   position: relative;
+   /*TODO:row gap main pages */
+   
    
 }
 .page{
@@ -17,6 +22,7 @@ width: 100%;
  height: 624px;
 margin:0px;
 padding:0px;
+
 
 }
 .page1{

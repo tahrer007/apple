@@ -1,0 +1,85 @@
+.page1_main_body {
+  width: 100%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  /*background-color: #fbfbfd;*/
+  background-color: violet;
+
+}
+.page1_body_logo_box{
+    padding-top: 29px;
+
+}
+.page1_body_logo {
+  width: 70px;
+  height: 88px;
+
+  background-size: 70px 88px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/ah/images/logos/holiday-2021/logo__dcojfwkzna2q_large.png);
+}
+.body_h2 {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1d1d1f;
+  text-align: center;
+  display: block;
+ position: relative;
+   flex-shrink: 1;
+ /*font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;*/
+}
+.main_links_div{
+    margin-top: 9px;
+}
+.body_links {
+  font-size: 21px;
+  line-height: 1.381;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  position: relative;
+  color: #06c;
+
+  
+  text-decoration: none;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.body_links::after {
+    content:"";
+    position: absolute;
+    padding-left: 0.3em;
+    top:0;
+}
+
+.page1_3imges {
+  width: 100%;
+  display: flex;
+  justify-content:center ; 
+  align-items:center ; 
+  background-color: tomato;
+}
+.unit_image {
+  width: 289px;
+  height: 281px;
+  background-size: 289px 281px;
+  background-repeat: no-repeat;
+  border:blue solid 2px;
+  margin-top: 26px;
+ 
+}
+.left{
+    background-image: url(/image/iphone__cyamwsdph26a_medium_2x.png);
+}
+.center{
+    background-image: url(/image/airpods__b0941p5gmwj6_medium_2x.png);
+}
+.right{
+    background-image: url(/image/ipad__bq6djchifrbm_medium_2x.png);
+}
