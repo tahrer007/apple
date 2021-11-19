@@ -1,36 +1,35 @@
-*{
-    margin:0px ; 
-    padding :0px ;
-    
-  
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.container{
-    width: 100%;
-    margin:0px;
-    padding: 0px ;
-   display: flex; 
-   flex-direction: column;
-   box-sizing: border-box;
-   position: relative;
-   /*TODO:row gap main pages */
-   
-   
+.container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  /*TODO:row gap main pages */
 }
-.page{
-width: 100%;
- height: 624px;
-margin:0px;
-padding:0px;
+.page {
+  width: 100%;
+  height: 624px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  box-sizing: border-box;
+}
+.page1 {
+  background-color: green;
+}
+.page2 {
+    background-position: center;
+    background-size: 100%;
+    background-image: url(/image/hero_iphone_13pro__dhnsegysa42u_medium_2x.jpg);
+}
 
-
-}
-.page1{
-    background-color: green;
-}
-.page2{
-    background-color: yellow;
-}
-.page3{
-    background-color: blue;
+.page3 {
+  background-color: blue;
 }

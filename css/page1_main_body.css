@@ -5,8 +5,8 @@
   flex-direction: column;
 
   align-items: center;
-  /*background-color: #fbfbfd;*/
-  background-color: violet;
+ background-color: #fbedf9;
+  /* background-color: violet;*/
 
 }
 .page1_body_logo_box{
@@ -63,23 +63,22 @@
   display: flex;
   justify-content:center ; 
   align-items:center ; 
-  background-color: tomato;
+ 
 }
 .unit_image {
   width: 289px;
   height: 281px;
   background-size: 289px 281px;
-  background-repeat: no-repeat;
-  border:blue solid 2px;
   margin-top: 26px;
  
 }
 .left{
-    background-image: url(/image/iphone__cyamwsdph26a_medium_2x.png);
-}
+  background-image: url(/image/airpods__b0941p5gmwj6_medium_2x.png);
+}  
 .center{
-    background-image: url(/image/airpods__b0941p5gmwj6_medium_2x.png);
+  background-image: url(/image/watch__csqqcayzqueu_large.png);
 }
+
 .right{
-    background-image: url(/image/ipad__bq6djchifrbm_medium_2x.png);
+    background-image: url(/image/ipadmini__f0pd6cilwaie_large.png);
 }
