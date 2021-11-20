@@ -5,12 +5,10 @@
   flex-direction: column;
 
   align-items: center;
- background-color: #fbedf9;
- 
+  background-color: #fbedf9;
 }
-.page1_body_logo_box{
-    padding-top: 29px;
-
+.page1_body_logo_box {
+  padding-top: 29px;
 }
 .page1_body_logo {
   width: 70px;
@@ -21,8 +19,8 @@
   background-image: url(https://www.apple.com/v/home/ah/images/logos/holiday-2021/logo__dcojfwkzna2q_large.png);
 }
 
-.main_links_div{
-    margin-top: 9px;
+.main_links_div {
+  margin-top: 9px;
 }
 .body_links {
   font-size: 21px;
@@ -33,14 +31,15 @@
   color: #06c;
   text-decoration: none;
   margin-top: 0.65em;
-  margin-left:35px;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-left: 35px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 .body_links::after {
-    content:"﹥";
-    position: absolute;
-    padding-left: 0.3em;
-    top:0;
+  content: "﹥";
+  position: absolute;
+  padding-left: 0.3em;
+  top: 0;
 }
 .body_links:hover {
   text-decoration: underline;
@@ -49,9 +48,8 @@
 .page1_3imges {
   width: 100%;
   display: flex;
-  justify-content:center ; 
-  align-items:center ; 
- 
+  justify-content: center;
+  align-items: center;
 }
 
 .unit_image {
@@ -59,18 +57,16 @@
   height: 281px;
   background-size: 289px 281px;
   margin-top: 26px;
-  
- 
 }
 
-.left{
+.left {
   background-image: url(/image/airpods__b0941p5gmwj6_medium_2x.png);
-}  
-.center{
+}
+.center {
   background-image: url(/image/watch__csqqcayzqueu_large.png);
   transform: rotateZ(-4deg) translate3d(0, 0, 0);
 }
 
-.right{
-    background-image: url(/image/ipadmini__f0pd6cilwaie_large.png);
+.right {
+  background-image: url(/image/ipadmini__f0pd6cilwaie_large.png);
 }
