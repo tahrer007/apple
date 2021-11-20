@@ -6,8 +6,7 @@
 
   align-items: center;
  background-color: #fbedf9;
-  /* background-color: violet;*/
-
+ 
 }
 .page1_body_logo_box{
     padding-top: 29px;
@@ -60,7 +59,7 @@
   height: 281px;
   background-size: 289px 281px;
   margin-top: 26px;
-  /*animation: rotate 4s .125s ease-in-out forwards;*/
+  
  
 }
 
