@@ -1,0 +1,126 @@
+footer {
+  min-width: 1024px;
+  background-color: #f5f5f7;
+  border-color: #d2d2d7;
+  color: #6e6e73;
+  border: 1px solid;
+  font-size: 12px;
+  line-height: 16.0004px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-size-adjust: 100%;
+  text-align: left;
+  opacity: 0.8;
+}
+.footer_upper_text {
+  padding: 17px 0 11px;
+  border-bottom: 1px solid #6e6e73;
+  width: 980px;
+  box-sizing: content-box;
+}
+.footer_list {
+  list-style: none;
+  margin: 0;
+  letter-spacing: normal;
+}
+.footer_upper_list_item {
+  padding-bottom: 0.8em;
+}
+.footer_links_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 12px;
+  width: 980px;
+}
+.five_column_footer {
+  width: 176px;
+  display: flex;
+  flex-direction: column;
+}
+.inside_column_box {
+  padding-top: 24px;
+}
+.five_column_footer h3 {
+  color: #1d1d1f;
+  margin-bottom: 0.8em;
+}
+.footer_links_list {
+  list-style: none;
+}
+.footer_links_list_item {
+  margin-bottom: 0.8em;
+  color: #424245;
+}
+.footer_links_list_item:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+/*---------------------footer_lower_text_box----------------------------*/
+.footer_lower_text_box {
+  padding-top: 34px;
+  padding-bottom: 21px ; 
+  width: 980px;
+}
+.footer_lower_text_1 {
+  margin-bottom: 7px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d2d2d7;
+}
+.footer_lower_text_1 a {
+  color: #06c;
+  text-decoration: none;
+}
+.footer_lower_text_1 a:hover {
+  color: #06c;
+  text-decoration: underline;
+}
+.footer_lower_text_2 {
+    display: flex;
+    
+    width: 980px;
+  
+   
+
+  }
+  .copyrights{
+    margin-right: 30px;
+    margin-top: 5px;
+  }
+  
+  .footer_legal_links{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 5px;
+    align-self: unset;
+   
+
+  }
+  .footer_legal_links a , .unitedstate a{
+    text-decoration: none;
+    border-right: 1px solid #d2d2d7;
+    margin-right: 7px;
+    padding-right: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+    color: #424245;
+  }
+  .footer_legal_links a:last-of-type {
+    border: none;
+
+  }
+  .footer_legal_links a:hover,.unitedstate a:hover{
+    text-decoration: underline;
+    
+  }
+  .unitedstate ,.unitedstate a {
+    margin-left: auto;
+    border: none;
+
+  }

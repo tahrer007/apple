@@ -1,21 +1,151 @@
-.gallery{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr) ; 
-    background-color: blueviolet;
-    gap:12px; 
-    padding: 0 12px; 
-    
-    box-sizing: border-box;
-    
-   
-    
+.gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 0 12px;
+  margin-bottom: 12px;
+
+  box-sizing: border-box;
 }
-.grid_img{
-    background-color: brown;
-    height:580px;
-    background-size: 110% 580px;
-    background-repeat: no-repeat; 
-    background-image: url(/image/tile_macbookpro__cx0ur0qg9biq_medium_2x.jpg);
-    background-position: center;
+.grid_img_box {
+  height: 580px;
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+}
+.line1_left{
+    background-image: url(/image/tile_macbookpro__cx0ur0qg9biq_large.jpg);
+}
+.line2_left{
+    background-image: url(/image/tile_homepod_mini__b73w4z3ljymu_large.jpg);
+   
+}
+.line3_left{
+    background-image: url(/image/tile__cauwwcyyn9hy_large.jpg);
+}
+.line1_right{
+    background-image: url(/image/tile_watch__e9n11b6m6yq2_large.jpg);
+}
+.line2_right{
+    background-image: url(/image/tile_lego_castaways__d2v36ez91ewm_large.jpg);
+}
+.line3_right{
+    background-image: url(/image/promo_dickinson__c9ea4l2f5rki_large.jpg);
+}
+.grid_box_title{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 53px;
+    color: #1d1d1f;
+
+}
+
+.grid_box_subtitle{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 4px;
+    color: #1d1d1f;
+}
+.grid_img_box .main_links_div {
+    margin-top: 0.7em;
+}
+.grid_img_box .main_links_div .body_links {
+    
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    margin-left: 0;
+    margin-right: 20px;
+}
+.h4_logo_image{
+   
+   height: 35px;
+   background-size: 125px 35px;
+   background-repeat: no-repeat;
+   background-position: center;
+
+}
+.card{
+    background-image: url(/image/logo__dcojfwkzna2q_large.png);
+
+
+}
+
+.arcade{
+   
+    background-size: 152px 34px;
+
+    background-image: url(/image/arcade.png);
+}
+.watch{
+    height: 56px;
+    background-size: 146px 56px;
+    background-image: url(/image/watch_logo.png);
+}
+.tv_logo{
+    height: 31px;
+    background-size: 80px 31px;
+    background-image: url(/image/tv_logo.png);
+}
+
+.h_hidden{
+    visibility: hidden;
+}
+.line1_right h4 {
+    margin-top:8px ;
+}
+
+.footnote{
+    font-size:10.2px;
+}
+.new{
+    margin-top: 31px;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: block;
+    color: #bf4800;
+    text-align: center;
+}
+/*----------------------tv box ---------------*/ 
+.line3_right{
+   justify-content:space-between;
+}
+.tv_body_box{
+    margin-bottom: 37px;
+}
+.line3_right h5{
+   
+    background-image: url(/image/dunk.png);
+    width: 257px;
+    height: 127px;
+    background-size: 257px 127px;
+    background-repeat: no-repeat;  
+}
+.tv_body_box .body_links {
+    color : #fff;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
 }
