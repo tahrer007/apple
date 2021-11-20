@@ -54,7 +54,7 @@
   align-items:center ; 
  
 }
-/*TODO:animation homepage*/
+
 .unit_image {
   width: 289px;
   height: 281px;
@@ -63,9 +63,7 @@
   /*animation: rotate 4s .125s ease-in-out forwards;*/
  
 }
-@keyframes rotate {
-  
-}
+
 .left{
   background-image: url(/image/airpods__b0941p5gmwj6_medium_2x.png);
 }  

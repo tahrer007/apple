@@ -1,0 +1,22 @@
+
+
+    .unit_image{
+        animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.125s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: rotate;
+    
+    
+
+    }
+    @keyframes rotate {
+        to {
+            transform: rotate(4deg);
+        }
+
+        
+    }

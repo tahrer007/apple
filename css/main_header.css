@@ -13,19 +13,26 @@
   line-height: 3.66667;
   font-weight: 400;
   letter-spacing: -0.01em;
-
   font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
     "Helvetica", "Arial", sans-serif;
 }
 .main_nav_list {
   list-style-type: none;
 }
-/* TODO:NAV LOGOS*/
+
 .main_nav_list_item {
-  display: inline;
+  display: inline-block;
   padding: 0px 8px;
   margin: 0px 8px;
+  
+ 
   opacity: 0.8;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+    background-size: cover;
+    
+    
 }
 .main_nav_list_item:hover {
   opacity: 1;
@@ -33,22 +40,24 @@
 }
 .logo {
   background-size: 14px 44px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 14px;
-
-  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-globalelements/dist/us/ac-globalnav-dist/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg);
+  width:14px;
+  background-image: url(https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg);
 }
+
 .search {
   background-size: 15px 88px;
-  background-repeat: no-repeat;
   width: 15px;
   background-image: url(https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__cbllq1gkias2_large.svg);
 }
 .bag {
   background-size: 13px 44px;
-  background-repeat: no-repeat;
+  width:13px;  
   background-image: url(https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__yzte50i47ciu_large.svg);
-  background-position: center center;
-  width: 13px;
 }
+
+
+
+
+
+
+
