@@ -60,7 +60,7 @@
   height: 281px;
   background-size: 289px 281px;
   margin-top: 26px;
-  animation: rotate 4s .125s ease-in-out forwards;
+  /*animation: rotate 4s .125s ease-in-out forwards;*/
  
 }
 @keyframes rotate {

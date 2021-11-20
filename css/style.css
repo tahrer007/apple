@@ -45,9 +45,12 @@
    
 }
 
-
 .page3 {
   background-image: url(/image/hero_iphone_13__f194u1rdooeq_large.jpg);
+}
+.main_footer{
+  background-color: green;
+
 }
 .body_h3{
   font-size: 28px;

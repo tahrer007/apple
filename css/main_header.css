@@ -1,7 +1,8 @@
 .main_header {
   height: 48px;
   width: 100%;
-  /*position: fixed;*/
+  position: fixed;
+  z-index: 100;
   max-height: 44px;
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;

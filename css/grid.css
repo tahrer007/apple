@@ -1,4 +1,21 @@
 .gallery{
     width: 100%;
     display: grid;
+    grid-template-columns: repeat(2,1fr) ; 
+    background-color: blueviolet;
+    gap:12px; 
+    padding: 0 12px; 
+    
+    box-sizing: border-box;
+    
+   
+    
+}
+.grid_img{
+    background-color: brown;
+    height:580px;
+    background-size: 110% 580px;
+    background-repeat: no-repeat; 
+    background-image: url(/image/tile_macbookpro__cx0ur0qg9biq_medium_2x.jpg);
+    background-position: center;
 }
