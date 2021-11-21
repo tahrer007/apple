@@ -18,7 +18,8 @@ footer {
 }
 .footer_upper_text {
   padding: 17px 0 11px;
-  border-bottom: 1px solid #6e6e73;
+  border-bottom: 1px solid #d2d2d7;
+
   width: 980px;
   box-sizing: content-box;
 }
