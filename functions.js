@@ -1,3 +1,2 @@
-function refreshPage(){
+const refreshPage =()=>
     window.location.reload();
-}
